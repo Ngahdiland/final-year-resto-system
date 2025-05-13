@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="bg-gray-500 h-max">
+    <main className=" h-max">
       <TopHead />
       <div className="flex justify-between">
         <Header />
