@@ -11,9 +11,11 @@ const TopHead = () => {
     <div className="w-full fixed flex flex-col justify-between h-[60px]   bg-[#ffffff] ">
       <div className="h-[50px] w-[98%] shadow-gray-950 shadow flex justify-between items-center m-auto rounded-xl">
         <div className="w-[97%] flex justify-between items-center  m-auto text-3xl  ">
-          <div className="">
-            <h2 className="bold-text font-extrabold"> <span className="text-[#f71a1a] ">FOODIE</span> <span className="text-[#f7901a]">SPOT</span></h2>
+          <div className="flex">
+            {/* <h2 className="bold-text font-extrabold"> <span className="text-[#f71a1a] ">FOODIE</span> <span className="text-[#f7901a]">SPOT</span></h2> */}
             {/* <Image src={logo} alt="" width={300} /> */}
+            <img src="/assets/logo.png" alt="Logo" className="h-8 w-8 object-contain " />
+            <span className="text-xl font-semibold text-[#f71a1a]">Resto</span>
           </div>
           <div className="flex w-full max-w-sm items-center space-x-[-10px] gap-5">
             <input
