@@ -8,7 +8,7 @@ import { Input } from "../ui/input";
 
 const TopHead = () => {
   return (
-    <div className="w-full fixed flex flex-col justify-between h-[60px]   bg-[#ffffff] ">
+    <div className="w-full fixed flex flex-col justify-between h-[60px] bg-[#ffffff] z-50 ">
       <div className="h-[50px] w-[98%] shadow-gray-950 shadow flex justify-between items-center m-auto rounded-xl">
         <div className="w-[97%] flex justify-between items-center  m-auto text-3xl  ">
           <div className="flex">
